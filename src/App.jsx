@@ -8,7 +8,7 @@ import { Home, CalendarDays, Activity, Trophy, MessageCircle, ArrowLeft, Sparkle
 //  - tab bar : icônes + libellés, état actif discret
 // ============================================================
 
-const N8N = { chat: "", data: "COLLE_ICI_TON_URL_COACH_DATA" }; // ← ex: https://.../webhook/coach-data
+const N8N = { chat: "", data: "https://lfp-digital.app.n8n.cloud/webhook/coach-data" }; // ← ex: https://.../webhook/coach-data
 
 const SYSTEM_PROMPT = `Tu es le coach running personnel de Dim, qui prépare un semi-marathon en novembre.
 Réponds en français, brièvement et avec justesse.`;
