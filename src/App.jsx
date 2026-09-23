@@ -130,7 +130,7 @@ function EcranHome({ derniere, prochaine, source, onChat, onProg, onAnalyse }) {
             <span style={{ fontSize: 12.5, color: C.sub }}>· {prochaine.jour}</span>
           </div>
           <div style={{ fontSize: 13.5, color: C.sub, marginTop: 3 }}>{prochaine.detail}</div>
-          <div style={{ fontSize: 12.5, color: C.accent, marginTop: 7, fontVariantNumeric: "tabular-nums" }}>cible {prochaine.cible}/km</div>
+          <div style={{ fontSize: 12.5, color: C.accent, marginTop: 7, fontVariantNumeric: "tabular-nums" }}>Cible {prochaine.cible}/km</div>
         </div>
         <ChevronRight size={20} color={C.faint} />
       </button>
@@ -200,7 +200,7 @@ function EcranProgramme({ programme }) {
                 <span style={{ fontWeight: 700, fontSize: 15 }}>{p.type}</span>
                 <span style={{ fontSize: 12.5, color: C.faint }}>{p.jour}</span>
               </div>
-              <div style={{ fontSize: 13, color: C.sub, marginTop: 3 }}>{p.detail}{p.cible !== "—" ? ` · cible ${p.cible}/km` : ""}</div>
+              <div style={{ fontSize: 13, color: C.sub, marginTop: 3 }}>{p.detail}{p.cible !== "—" ? ` · Cible ${p.cible}/km` : ""}</div>
             </div>
           </div>
         ))}
